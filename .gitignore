@@ -1,0 +1,27 @@
+# Ignore large datasets
+data/com-lj.ungraph.txt
+
+# Or ignore all uncompressed raw data files inside data (optional but safer)
+# data/*.txt
+
+# Python virtual environments
+venv/
+.venv/
+env/
+
+# Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# LaTeX temporary files (if any remain)
+*.aux
+*.log
+*.toc
+*.pdf
+*.synctex.gz

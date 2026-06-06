@@ -1,0 +1,15 @@
+numpy
+pandas
+networkx
+matplotlib
+seaborn
+joblib
+scipy
+tqdm
+requests
+transformers
+torch
+sentencepiece
+accelerate
+llama-cpp-python
+huggingface-hub

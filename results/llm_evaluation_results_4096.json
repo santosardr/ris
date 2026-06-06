@@ -1,0 +1,757 @@
+{
+    "model": "TinyLlama/TinyLlama-1.1B-Chat-v1.0",
+    "sequence_length": 4096,
+    "top_k_hubs": 40,
+    "trials": [
+        {
+            "trial": 1,
+            "budget_edges": 24554,
+            "density": 0.0029277796855921856,
+            "mass_captured": {
+                "RIS": 6.499411106109619,
+                "Longformer": 658.2880859375,
+                "BigBird": 634.728515625
+            },
+            "centrality_correlation": {
+                "RIS": 0.007854058239448581,
+                "Longformer": 0.9499209823785923,
+                "BigBird": 0.6870051553091013
+            },
+            "hub_recall": {
+                "RIS": 0.05,
+                "Longformer": 0.025,
+                "BigBird": 0.05
+            },
+            "mean_hub_distance": {
+                "RIS": 1958.3947368421052,
+                "Longformer": 2048.0,
+                "BigBird": 2047.750030528758
+            }
+        },
+        {
+            "trial": 2,
+            "budget_edges": 24551,
+            "density": 0.0029274219703907204,
+            "mass_captured": {
+                "RIS": 5.411017894744873,
+                "Longformer": 658.2880859375,
+                "BigBird": 634.665771484375
+            },
+            "centrality_correlation": {
+                "RIS": 0.011943623513127206,
+                "Longformer": 0.9499209823785923,
+                "BigBird": 0.6869390471444652
+            },
+            "hub_recall": {
+                "RIS": 0.0,
+                "Longformer": 0.025,
+                "BigBird": 0.075
+            },
+            "mean_hub_distance": {
+                "RIS": 0.0,
+                "Longformer": 2048.0,
+                "BigBird": 2046.6705265724038
+            }
+        },
+        {
+            "trial": 3,
+            "budget_edges": 24552,
+            "density": 0.002927541208791209,
+            "mass_captured": {
+                "RIS": 5.813049793243408,
+                "Longformer": 658.2880859375,
+                "BigBird": 634.882568359375
+            },
+            "centrality_correlation": {
+                "RIS": 0.013730744529540762,
+                "Longformer": 0.9499209823785923,
+                "BigBird": 0.687158675415015
+            },
+            "hub_recall": {
+                "RIS": 0.0,
+                "Longformer": 0.025,
+                "BigBird": 0.05
+            },
+            "mean_hub_distance": {
+                "RIS": 0.0,
+                "Longformer": 2048.0,
+                "BigBird": 2047.750030528758
+            }
+        },
+        {
+            "trial": 4,
+            "budget_edges": 24548,
+            "density": 0.002927064255189255,
+            "mass_captured": {
+                "RIS": 5.289071559906006,
+                "Longformer": 658.2880859375,
+                "BigBird": 634.8302001953125
+            },
+            "centrality_correlation": {
+                "RIS": -0.007932529769873133,
+                "Longformer": 0.9499209823785923,
+                "BigBird": 0.6871011523157504
+            },
+            "hub_recall": {
+                "RIS": 0.0,
+                "Longformer": 0.025,
+                "BigBird": 0.05
+            },
+            "mean_hub_distance": {
+                "RIS": 0.0,
+                "Longformer": 2048.0,
+                "BigBird": 2047.750030528758
+            }
+        },
+        {
+            "trial": 5,
+            "budget_edges": 24548,
+            "density": 0.002927064255189255,
+            "mass_captured": {
+                "RIS": 6.962493896484375,
+                "Longformer": 658.2880859375,
+                "BigBird": 634.8832397460938
+            },
+            "centrality_correlation": {
+                "RIS": 0.026456871733243993,
+                "Longformer": 0.9499209823785923,
+                "BigBird": 0.6871820342928472
+            },
+            "hub_recall": {
+                "RIS": 0.0,
+                "Longformer": 0.025,
+                "BigBird": 0.05
+            },
+            "mean_hub_distance": {
+                "RIS": 0.0,
+                "Longformer": 2048.0,
+                "BigBird": 2047.750030528758
+            }
+        },
+        {
+            "trial": 6,
+            "budget_edges": 24559,
+            "density": 0.0029283758775946276,
+            "mass_captured": {
+                "RIS": 5.104924201965332,
+                "Longformer": 658.2880859375,
+                "BigBird": 634.8198852539062
+            },
+            "centrality_correlation": {
+                "RIS": -0.003293398664235711,
+                "Longformer": 0.9499209823785923,
+                "BigBird": 0.6872023621057634
+            },
+            "hub_recall": {
+                "RIS": 0.025,
+                "Longformer": 0.025,
+                "BigBird": 0.05
+            },
+            "mean_hub_distance": {
+                "RIS": 1818.5714285714287,
+                "Longformer": 2048.0,
+                "BigBird": 2047.750030528758
+            }
+        },
+        {
+            "trial": 7,
+            "budget_edges": 24556,
+            "density": 0.0029280181623931624,
+            "mass_captured": {
+                "RIS": 5.382347583770752,
+                "Longformer": 658.2880859375,
+                "BigBird": 634.9090576171875
+            },
+            "centrality_correlation": {
+                "RIS": -0.02001495987416658,
+                "Longformer": 0.9499209823785923,
+                "BigBird": 0.6871665304515497
+            },
+            "hub_recall": {
+                "RIS": 0.0,
+                "Longformer": 0.025,
+                "BigBird": 0.05
+            },
+            "mean_hub_distance": {
+                "RIS": 0.0,
+                "Longformer": 2048.0,
+                "BigBird": 2047.750030528758
+            }
+        },
+        {
+            "trial": 8,
+            "budget_edges": 24552,
+            "density": 0.002927541208791209,
+            "mass_captured": {
+                "RIS": 5.57192850112915,
+                "Longformer": 658.2880859375,
+                "BigBird": 634.7987060546875
+            },
+            "centrality_correlation": {
+                "RIS": 0.00248962338941422,
+                "Longformer": 0.9499209823785923,
+                "BigBird": 0.6871882489023688
+            },
+            "hub_recall": {
+                "RIS": 0.0,
+                "Longformer": 0.025,
+                "BigBird": 0.1
+            },
+            "mean_hub_distance": {
+                "RIS": 0.0,
+                "Longformer": 2048.0,
+                "BigBird": 2046.7782645734453
+            }
+        },
+        {
+            "trial": 9,
+            "budget_edges": 24555,
+            "density": 0.002927898923992674,
+            "mass_captured": {
+                "RIS": 5.885678291320801,
+                "Longformer": 658.2880859375,
+                "BigBird": 634.757568359375
+            },
+            "centrality_correlation": {
+                "RIS": 0.011574180574803538,
+                "Longformer": 0.9499209823785923,
+                "BigBird": 0.6869850310107657
+            },
+            "hub_recall": {
+                "RIS": 0.0,
+                "Longformer": 0.025,
+                "BigBird": 0.05
+            },
+            "mean_hub_distance": {
+                "RIS": 0.0,
+                "Longformer": 2048.0,
+                "BigBird": 2047.750030528758
+            }
+        },
+        {
+            "trial": 10,
+            "budget_edges": 24558,
+            "density": 0.002928256639194139,
+            "mass_captured": {
+                "RIS": 5.20946741104126,
+                "Longformer": 658.2880859375,
+                "BigBird": 634.775390625
+            },
+            "centrality_correlation": {
+                "RIS": -0.012615981927388012,
+                "Longformer": 0.9499209823785923,
+                "BigBird": 0.6871621016680527
+            },
+            "hub_recall": {
+                "RIS": 0.0,
+                "Longformer": 0.025,
+                "BigBird": 0.075
+            },
+            "mean_hub_distance": {
+                "RIS": 0.0,
+                "Longformer": 2048.0,
+                "BigBird": 2047.206118966358
+            }
+        },
+        {
+            "trial": 11,
+            "budget_edges": 24555,
+            "density": 0.002927898923992674,
+            "mass_captured": {
+                "RIS": 5.048586368560791,
+                "Longformer": 658.2880859375,
+                "BigBird": 635.0460815429688
+            },
+            "centrality_correlation": {
+                "RIS": -0.015558449650341769,
+                "Longformer": 0.9499209823785923,
+                "BigBird": 0.6872789946989225
+            },
+            "hub_recall": {
+                "RIS": 0.0,
+                "Longformer": 0.025,
+                "BigBird": 0.05
+            },
+            "mean_hub_distance": {
+                "RIS": 0.0,
+                "Longformer": 2048.0,
+                "BigBird": 2047.750030528758
+            }
+        },
+        {
+            "trial": 12,
+            "budget_edges": 24545,
+            "density": 0.00292670653998779,
+            "mass_captured": {
+                "RIS": 5.068411350250244,
+                "Longformer": 658.2880859375,
+                "BigBird": 634.7728881835938
+            },
+            "centrality_correlation": {
+                "RIS": -0.023178998856892293,
+                "Longformer": 0.9499209823785923,
+                "BigBird": 0.6870651532386969
+            },
+            "hub_recall": {
+                "RIS": 0.0,
+                "Longformer": 0.025,
+                "BigBird": 0.05
+            },
+            "mean_hub_distance": {
+                "RIS": 0.0,
+                "Longformer": 2048.0,
+                "BigBird": 2047.750030528758
+            }
+        },
+        {
+            "trial": 13,
+            "budget_edges": 24546,
+            "density": 0.0029268257783882784,
+            "mass_captured": {
+                "RIS": 5.807744979858398,
+                "Longformer": 658.2880859375,
+                "BigBird": 634.8217163085938
+            },
+            "centrality_correlation": {
+                "RIS": -0.005897429881154942,
+                "Longformer": 0.9499209823785923,
+                "BigBird": 0.687184248143902
+            },
+            "hub_recall": {
+                "RIS": 0.025,
+                "Longformer": 0.025,
+                "BigBird": 0.05
+            },
+            "mean_hub_distance": {
+                "RIS": 2331.315789473684,
+                "Longformer": 2048.0,
+                "BigBird": 2047.750030528758
+            }
+        },
+        {
+            "trial": 14,
+            "budget_edges": 24544,
+            "density": 0.0029265873015873016,
+            "mass_captured": {
+                "RIS": 5.645885944366455,
+                "Longformer": 658.2880859375,
+                "BigBird": 634.705078125
+            },
+            "centrality_correlation": {
+                "RIS": -0.006529789839737953,
+                "Longformer": 0.9499209823785923,
+                "BigBird": 0.6870162162627745
+            },
+            "hub_recall": {
+                "RIS": 0.025,
+                "Longformer": 0.025,
+                "BigBird": 0.05
+            },
+            "mean_hub_distance": {
+                "RIS": 2127.8888888888887,
+                "Longformer": 2048.0,
+                "BigBird": 2047.750030528758
+            }
+        },
+        {
+            "trial": 15,
+            "budget_edges": 24550,
+            "density": 0.002927302731990232,
+            "mass_captured": {
+                "RIS": 6.115826606750488,
+                "Longformer": 658.2880859375,
+                "BigBird": 634.9730224609375
+            },
+            "centrality_correlation": {
+                "RIS": 0.0006171951122531213,
+                "Longformer": 0.9499209823785923,
+                "BigBird": 0.6873166171569781
+            },
+            "hub_recall": {
+                "RIS": 0.025,
+                "Longformer": 0.025,
+                "BigBird": 0.05
+            },
+            "mean_hub_distance": {
+                "RIS": 1969.090909090909,
+                "Longformer": 2048.0,
+                "BigBird": 2047.750030528758
+            }
+        },
+        {
+            "trial": 16,
+            "budget_edges": 24554,
+            "density": 0.0029277796855921856,
+            "mass_captured": {
+                "RIS": 5.990651607513428,
+                "Longformer": 658.2880859375,
+                "BigBird": 634.694091796875
+            },
+            "centrality_correlation": {
+                "RIS": 0.00857665950982863,
+                "Longformer": 0.9499209823785923,
+                "BigBird": 0.6869488590339745
+            },
+            "hub_recall": {
+                "RIS": 0.0,
+                "Longformer": 0.025,
+                "BigBird": 0.075
+            },
+            "mean_hub_distance": {
+                "RIS": 0.0,
+                "Longformer": 2048.0,
+                "BigBird": 2046.0357229943916
+            }
+        },
+        {
+            "trial": 17,
+            "budget_edges": 24556,
+            "density": 0.0029280181623931624,
+            "mass_captured": {
+                "RIS": 5.87768030166626,
+                "Longformer": 658.2880859375,
+                "BigBird": 634.9561157226562
+            },
+            "centrality_correlation": {
+                "RIS": 0.00023532190345790992,
+                "Longformer": 0.9499209823785923,
+                "BigBird": 0.6872653561002696
+            },
+            "hub_recall": {
+                "RIS": 0.0,
+                "Longformer": 0.025,
+                "BigBird": 0.1
+            },
+            "mean_hub_distance": {
+                "RIS": 0.0,
+                "Longformer": 2048.0,
+                "BigBird": 2046.5212364609954
+            }
+        },
+        {
+            "trial": 18,
+            "budget_edges": 24545,
+            "density": 0.00292670653998779,
+            "mass_captured": {
+                "RIS": 6.0475006103515625,
+                "Longformer": 658.2880859375,
+                "BigBird": 634.7709350585938
+            },
+            "centrality_correlation": {
+                "RIS": 0.014248840826519837,
+                "Longformer": 0.9499209823785923,
+                "BigBird": 0.687048310193368
+            },
+            "hub_recall": {
+                "RIS": 0.0,
+                "Longformer": 0.025,
+                "BigBird": 0.075
+            },
+            "mean_hub_distance": {
+                "RIS": 0.0,
+                "Longformer": 2048.0,
+                "BigBird": 2046.7609119726897
+            }
+        },
+        {
+            "trial": 19,
+            "budget_edges": 24555,
+            "density": 0.002927898923992674,
+            "mass_captured": {
+                "RIS": 6.126091480255127,
+                "Longformer": 658.2880859375,
+                "BigBird": 634.9271850585938
+            },
+            "centrality_correlation": {
+                "RIS": 0.0029820826275718023,
+                "Longformer": 0.9499209823785923,
+                "BigBird": 0.6872317252473934
+            },
+            "hub_recall": {
+                "RIS": 0.025,
+                "Longformer": 0.025,
+                "BigBird": 0.075
+            },
+            "mean_hub_distance": {
+                "RIS": 1711.842105263158,
+                "Longformer": 2048.0,
+                "BigBird": 2046.1801999512313
+            }
+        },
+        {
+            "trial": 20,
+            "budget_edges": 24556,
+            "density": 0.0029280181623931624,
+            "mass_captured": {
+                "RIS": 5.3275370597839355,
+                "Longformer": 658.2880859375,
+                "BigBird": 634.8826904296875
+            },
+            "centrality_correlation": {
+                "RIS": -0.024061520394682435,
+                "Longformer": 0.9499209823785923,
+                "BigBird": 0.6871713270266981
+            },
+            "hub_recall": {
+                "RIS": 0.0,
+                "Longformer": 0.025,
+                "BigBird": 0.05
+            },
+            "mean_hub_distance": {
+                "RIS": 0.0,
+                "Longformer": 2048.0,
+                "BigBird": 2047.750030528758
+            }
+        },
+        {
+            "trial": 21,
+            "budget_edges": 24547,
+            "density": 0.002926945016788767,
+            "mass_captured": {
+                "RIS": 5.578911781311035,
+                "Longformer": 658.2880859375,
+                "BigBird": 634.7440795898438
+            },
+            "centrality_correlation": {
+                "RIS": 0.00408082967437296,
+                "Longformer": 0.9499209823785923,
+                "BigBird": 0.6871618688894822
+            },
+            "hub_recall": {
+                "RIS": 0.025,
+                "Longformer": 0.025,
+                "BigBird": 0.05
+            },
+            "mean_hub_distance": {
+                "RIS": 1594.578947368421,
+                "Longformer": 2048.0,
+                "BigBird": 2047.750030528758
+            }
+        },
+        {
+            "trial": 22,
+            "budget_edges": 24550,
+            "density": 0.002927302731990232,
+            "mass_captured": {
+                "RIS": 5.817342281341553,
+                "Longformer": 658.2880859375,
+                "BigBird": 634.8162841796875
+            },
+            "centrality_correlation": {
+                "RIS": 9.292645794016579e-05,
+                "Longformer": 0.9499209823785923,
+                "BigBird": 0.6871173814263956
+            },
+            "hub_recall": {
+                "RIS": 0.0,
+                "Longformer": 0.025,
+                "BigBird": 0.05
+            },
+            "mean_hub_distance": {
+                "RIS": 0.0,
+                "Longformer": 2048.0,
+                "BigBird": 2047.750030528758
+            }
+        },
+        {
+            "trial": 23,
+            "budget_edges": 24552,
+            "density": 0.002927541208791209,
+            "mass_captured": {
+                "RIS": 6.035771369934082,
+                "Longformer": 658.2880859375,
+                "BigBird": 634.7329711914062
+            },
+            "centrality_correlation": {
+                "RIS": 0.009277138859686859,
+                "Longformer": 0.9499209823785923,
+                "BigBird": 0.687057299003478
+            },
+            "hub_recall": {
+                "RIS": 0.0,
+                "Longformer": 0.025,
+                "BigBird": 0.05
+            },
+            "mean_hub_distance": {
+                "RIS": 0.0,
+                "Longformer": 2048.0,
+                "BigBird": 2047.750030528758
+            }
+        },
+        {
+            "trial": 24,
+            "budget_edges": 24545,
+            "density": 0.00292670653998779,
+            "mass_captured": {
+                "RIS": 5.984068393707275,
+                "Longformer": 658.2880859375,
+                "BigBird": 634.9923095703125
+            },
+            "centrality_correlation": {
+                "RIS": 0.011700960592238649,
+                "Longformer": 0.9499209823785923,
+                "BigBird": 0.6872441090891542
+            },
+            "hub_recall": {
+                "RIS": 0.0,
+                "Longformer": 0.025,
+                "BigBird": 0.05
+            },
+            "mean_hub_distance": {
+                "RIS": 0.0,
+                "Longformer": 2048.0,
+                "BigBird": 2047.750030528758
+            }
+        },
+        {
+            "trial": 25,
+            "budget_edges": 24552,
+            "density": 0.002927541208791209,
+            "mass_captured": {
+                "RIS": 5.410487651824951,
+                "Longformer": 658.2880859375,
+                "BigBird": 634.844970703125
+            },
+            "centrality_correlation": {
+                "RIS": -0.03040981723637848,
+                "Longformer": 0.9499209823785923,
+                "BigBird": 0.6871273029440823
+            },
+            "hub_recall": {
+                "RIS": 0.0,
+                "Longformer": 0.025,
+                "BigBird": 0.05
+            },
+            "mean_hub_distance": {
+                "RIS": 0.0,
+                "Longformer": 2048.0,
+                "BigBird": 2047.750030528758
+            }
+        },
+        {
+            "trial": 26,
+            "budget_edges": 24544,
+            "density": 0.0029265873015873016,
+            "mass_captured": {
+                "RIS": 5.290450096130371,
+                "Longformer": 658.2880859375,
+                "BigBird": 635.0232543945312
+            },
+            "centrality_correlation": {
+                "RIS": -0.011894325687734684,
+                "Longformer": 0.9499209823785923,
+                "BigBird": 0.6873695725701185
+            },
+            "hub_recall": {
+                "RIS": 0.025,
+                "Longformer": 0.025,
+                "BigBird": 0.05
+            },
+            "mean_hub_distance": {
+                "RIS": 1896.85,
+                "Longformer": 2048.0,
+                "BigBird": 2047.750030528758
+            }
+        },
+        {
+            "trial": 27,
+            "budget_edges": 24549,
+            "density": 0.0029271834935897436,
+            "mass_captured": {
+                "RIS": 6.245314121246338,
+                "Longformer": 658.2880859375,
+                "BigBird": 634.8297729492188
+            },
+            "centrality_correlation": {
+                "RIS": 0.012135507148561724,
+                "Longformer": 0.9499209823785923,
+                "BigBird": 0.6870532459515515
+            },
+            "hub_recall": {
+                "RIS": 0.025,
+                "Longformer": 0.025,
+                "BigBird": 0.05
+            },
+            "mean_hub_distance": {
+                "RIS": 2101.4444444444443,
+                "Longformer": 2048.0,
+                "BigBird": 2047.750030528758
+            }
+        },
+        {
+            "trial": 28,
+            "budget_edges": 24551,
+            "density": 0.0029274219703907204,
+            "mass_captured": {
+                "RIS": 5.687300205230713,
+                "Longformer": 658.2880859375,
+                "BigBird": 634.8859252929688
+            },
+            "centrality_correlation": {
+                "RIS": -0.01255237305723341,
+                "Longformer": 0.9499209823785923,
+                "BigBird": 0.6871595689052394
+            },
+            "hub_recall": {
+                "RIS": 0.0,
+                "Longformer": 0.025,
+                "BigBird": 0.075
+            },
+            "mean_hub_distance": {
+                "RIS": 0.0,
+                "Longformer": 2048.0,
+                "BigBird": 2046.9592831890773
+            }
+        },
+        {
+            "trial": 29,
+            "budget_edges": 24559,
+            "density": 0.0029283758775946276,
+            "mass_captured": {
+                "RIS": 6.490734100341797,
+                "Longformer": 658.2880859375,
+                "BigBird": 634.7044067382812
+            },
+            "centrality_correlation": {
+                "RIS": 0.03153429552970517,
+                "Longformer": 0.9499209823785923,
+                "BigBird": 0.6870833844691971
+            },
+            "hub_recall": {
+                "RIS": 0.0,
+                "Longformer": 0.025,
+                "BigBird": 0.05
+            },
+            "mean_hub_distance": {
+                "RIS": 0.0,
+                "Longformer": 2048.0,
+                "BigBird": 2047.750030528758
+            }
+        },
+        {
+            "trial": 30,
+            "budget_edges": 24547,
+            "density": 0.002926945016788767,
+            "mass_captured": {
+                "RIS": 6.214526653289795,
+                "Longformer": 658.2880859375,
+                "BigBird": 634.85205078125
+            },
+            "centrality_correlation": {
+                "RIS": 0.021290580477215677,
+                "Longformer": 0.9499209823785923,
+                "BigBird": 0.6870166785374272
+            },
+            "hub_recall": {
+                "RIS": 0.0,
+                "Longformer": 0.025,
+                "BigBird": 0.075
+            },
+            "mean_hub_distance": {
+                "RIS": 0.0,
+                "Longformer": 2048.0,
+                "BigBird": 2046.4950024378352
+            }
+        }
+    ]
+}

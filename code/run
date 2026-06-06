@@ -1,0 +1,40 @@
+#!/bin/bash
+set -e
+
+# Navigate to code directory if on Code Ocean
+if [ -d "/code" ]; then
+    cd /code
+fi
+
+echo "Starting RIS Framework Reproducible Run..."
+mkdir -p ../results
+
+# 1. Generate Figures 1, 2, and 3 (Synthetic Benchmarks)
+echo "Generating Figures 1, 2, and 3 (Centrality, Reduction, and Recall)..."
+python generate_fig1_fig2_fig3_synthetic.py
+
+# 2. Run Domain-Specific Benchmarks (for Fig 4)
+echo "Running Domain-Specific Benchmarks (Power Grid, Collaboration, Financial, Climate)..."
+python benchmark_power_grid.py
+python benchmark_collaboration.py
+python benchmark_financial.py
+python benchmark_climate.py
+
+# 3. Generate Universality Plot (Figure 4)
+echo "Generating Universality Plot (Figure 4)..."
+python generate_fig4_universality.py
+
+# 4. Generate Mean Hub Recall Comparison (Figure 5)
+echo "Generating Figure 5 (10 replicates for validation, use 20,000 for paper-quality)..."
+python generate_fig5_mean_comparison.py --replicates 10
+
+# 5. Generate Graphical Abstract
+echo "Generating Graphical Abstract..."
+python generate_graphical_abstract.py
+
+# 6. Run LLM Small-Context Validation (512, 1024 tokens)
+echo "Running LLM Small-Context Validation (512, 1024 tokens)..."
+python llm_lt_16k.py
+
+# 7. Finalize
+echo "Reproducible Run Complete. Check the 'results' folder for outputs."
