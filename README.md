@@ -2,6 +2,15 @@
 
 This directory contains the reference implementation, high-performance benchmarking suite, and figure-generation scripts for the Reduced Interaction Sampling (RIS) framework.
 
+![RIS Analogy](RIS_analogy.png)
+
+### The RIS Analogy
+The Reduced Interaction Sampling (RIS) framework can be understood through a simple analogy: **a woman looking at a forest through a sieve**. 
+
+Although the sieve filters out and blocks a large portion of the visual input (reducing the density of interaction details), she can still clearly perceive and comprehend the overall structure and essence of the forest she is contemplating. 
+
+Similarly, RIS sparsifies the quadratic interaction space of attention mechanisms in Transformers by sampling only a fraction of the elements while fully preserving the underlying topological structure and key information flow.
+
 ## Directory Structure
 
 ```text
