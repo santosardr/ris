@@ -75,7 +75,7 @@ def generate_graphical_abstract():
     nx.draw_networkx_nodes(G_truth, pos, ax=ax2, node_size=node_sizes_ris, 
                            node_color=node_colors_ris, linewidths=0.5, edgecolors='white')
     
-    ax2.set_title("RIS Framework\n$O(N)$ Adaptive Sparsification", 
+    ax2.set_title("RIS Framework\n$O(N \\log N)$ Adaptive Sparsification", 
                  fontsize=12, fontweight='bold', color='#1a1a1a', pad=15)
     ax2.text(0.5, -0.1, "Topological Preservation\n99% Gain in Efficiency", 
              horizontalalignment='center', verticalalignment='center', transform=ax2.transAxes, 
