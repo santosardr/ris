@@ -51,12 +51,12 @@ def plot_results(df):
     ax_main.set_ylabel("Centrality Correlation (Recovered vs. Ground Truth)", fontsize=12)
     ax_main.legend(bbox_to_anchor=(1.05, 1), loc='upper left')
 
-    # Inset zoom: N < 10,000
+    # Inset zoom: N < 2000
     ax_inset = fig.add_axes([0.38, 0.45, 0.32, 0.35])  # [left, bottom, width, height] in figure coords
-    df_zoom = df[df['n'] <= 10000]
+    df_zoom = df[df['n'] <= 2000]
     sns.lineplot(data=df_zoom, x='n', y='centrality_corr', hue='topology', style='strategy', markers=True, ax=ax_inset, legend=False)
     ax_inset.axvspan(0, 2000, color='gray', alpha=0.08)
-    ax_inset.set_title("Zoom: N ≤ 10,000", fontsize=10, fontweight='bold')
+    ax_inset.set_title("Zoom: N ≤ 2,000", fontsize=10, fontweight='bold')
     ax_inset.set_xlabel("N", fontsize=9)
     ax_inset.set_ylabel("ρ", fontsize=9)
     ax_inset.tick_params(labelsize=8)
