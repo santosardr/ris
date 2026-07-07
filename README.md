@@ -1,5 +1,9 @@
 # RIS: Reduced Interaction Sampling - Implementation Scripts
 
+[![Scientific Reports](https://img.shields.io/badge/Scientific%20Reports-Published-green)](https://doi.org/10.1038/s41598-026-59160-z)
+[![DOI](https://img.shields.io/badge/DOI-10.1038%2Fs41598--026--59160--z-blue)](https://doi.org/10.1038/s41598-026-59160-z)
+[![Code Ocean](https://img.shields.io/badge/Code%20Ocean-Capsule-orange)](https://doi.org/10.24433/CO.9986683.v1)
+
 This directory contains the reference implementation, high-performance benchmarking suite, and figure-generation scripts for the Reduced Interaction Sampling (RIS) framework.
 
 ![RIS Analogy](RIS_analogy.png)
@@ -10,6 +14,12 @@ The Reduced Interaction Sampling (RIS) framework can be understood through a sim
 Although the sieve filters out and blocks a large portion of the visual input (reducing the density of interaction details), she can still clearly perceive and comprehend the overall structure and essence of the forest she is contemplating. 
 
 Similarly, RIS sparsifies the quadratic interaction space of attention mechanisms in Transformers by sampling only a fraction of the elements while fully preserving the underlying topological structure and key information flow.
+
+> [!NOTE]
+> **Looking for a practical implementation?** The continuation of this theoretical work is **RIS-Kernel** — a model-agnostic runtime layer that applies RIS sparse attention to real LLMs, enabling 64k+ token inference on commodity CPU hardware without GPU acceleration.
+> - 📦 **Implementation (Zenodo):** [doi.org/10.5281/zenodo.20476759](https://doi.org/10.5281/zenodo.20476759)
+> - 🎥 **IKE'26 Conference Presentation:** [youtu.be/paIP6V0pv8M](https://youtu.be/paIP6V0pv8M)
+> - 💻 **GitHub Repository:** [github.com/santosardr/riskernel](https://github.com/santosardr/riskernel)
 
 ## Directory Structure
 
@@ -114,8 +124,35 @@ This codebase is designed with a **Dual-Mode Execution Model** to run seamlessly
 
 ## Citation
 
-If you use this framework in your research, please cite the preprint (Version 5):
-*Santos, A. R. (2026). Towards Million-Token Context Windows: A Topology-Preserving Framework for Adaptive Transformer Sparsification. Zenodo. DOI: [10.5281/zenodo.20460983](https://doi.org/10.5281/zenodo.20460983).*
+If you use this framework in your research, please cite the official publication:
+
+Santos, A.R. Towards million-token context windows: a topology-preserving framework for adaptive transformer sparsification. *Sci Rep* (2026). [https://doi.org/10.1038/s41598-026-59160-z](https://doi.org/10.1038/s41598-026-59160-z)
+
+```bibtex
+@article{santos2026ris,
+  author  = {Santos, Anderson R.},
+  title   = {Towards million-token context windows: a topology-preserving framework for adaptive transformer sparsification},
+  journal = {Scientific Reports},
+  year    = {2026},
+  doi     = {10.1038/s41598-026-59160-z},
+  url     = {https://doi.org/10.1038/s41598-026-59160-z}
+}
+```
+
+If you also use the **RIS-Kernel** implementation (which applies this framework to real LLM inference), please additionally cite:
+
+Santos, A. (2026). RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention. Zenodo. [https://doi.org/10.5281/zenodo.20476759](https://doi.org/10.5281/zenodo.20476759)
+
+```bibtex
+@misc{santos2026riskernel,
+  author    = {Santos, Anderson},
+  title     = {RIS-Kernel: A Model-Agnostic Architecture for Long-Context LLM Inference via Sparse Attention},
+  year      = {2026},
+  publisher = {Zenodo},
+  doi       = {10.5281/zenodo.20476759},
+  url       = {https://doi.org/10.5281/zenodo.20476759}
+}
+```
 
 You can also run or export the fully configured environment using the Code Ocean capsule:
 *   **Code Ocean Capsule DOI:** [10.24433/CO.9986683.v1](https://doi.org/10.24433/CO.9986683.v1)
